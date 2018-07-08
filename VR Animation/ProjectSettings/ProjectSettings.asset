@@ -305,6 +305,9 @@ PlayerSettings:
     m_Enabled: 1
     m_Devices:
     - OpenVR
+    - split
+    - Oculus
+    - stereo
   - m_BuildTarget: Tizen
     m_Enabled: 0
     m_Devices: []
@@ -713,7 +716,7 @@ PlayerSettings:
     Game_Performance: 0
     Hub: 0
     Purchasing: 0
-    UNet: 0
+    UNet: 1
     Unity_Ads: 0
   facebookSdkVersion: 7.9.4
   apiCompatibilityLevel: 2
